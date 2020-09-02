@@ -12,4 +12,4 @@ jobs:
         dst_path: /_docs/
         dst_owner: cannabisanswers
         dst_repo_name: site
-        file_filter: *.md
+        file_filter: "*.md"
