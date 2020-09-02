@@ -13,3 +13,4 @@ jobs:
         dst_owner: cannabisanswers
         dst_repo_name: site
         file_filter: "*.md"
+        exclude: "README.md"
