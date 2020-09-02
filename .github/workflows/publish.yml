@@ -1,0 +1,14 @@
+name: Publish
+on: push
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Publish to site
+      uses: andstor/copycat-action@v3
+      with:
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        src_path: /.
+        dst_path: /_faqs/
+        dst_owner: cannabisanswers
+        dst_repo_name: site
