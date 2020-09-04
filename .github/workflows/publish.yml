@@ -9,7 +9,7 @@ jobs:
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         src_path: /.
-        dst_path: /_docs/
+        dst_path: /_answers/
         dst_owner: cannabisanswers
         dst_repo_name: site
         file_filter: "*.md"
